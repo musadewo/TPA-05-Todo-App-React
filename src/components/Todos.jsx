@@ -33,6 +33,7 @@ function Todos(props) {
     <div className="input-section">
       <input
         type="text"
+        placeholder="What to do"
         onChange={(e) => handleChange(e)}
         className="todo-input"
       />

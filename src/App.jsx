@@ -5,7 +5,7 @@ import DisplayTodos from "./components/DisplayTodos";
 function App() {
   return (
     <div className="App">
-      <h1>To Do List</h1>
+      <h1>What's the plan for today?</h1>
       <Todos />
       <DisplayTodos />
     </div>
