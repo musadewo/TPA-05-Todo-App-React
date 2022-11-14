@@ -1,9 +1,13 @@
-// import './App.css'
+import "./App.css";
+import Todos from "./components/Todos";
+import DisplayTodos from "./components/DisplayTodos";
 
 function App() {
   return (
-    <div>
-      <h1>Ho</h1>
+    <div className="App">
+      <h1>To Do List</h1>
+      <Todos />
+      <DisplayTodos />
     </div>
   );
 }
